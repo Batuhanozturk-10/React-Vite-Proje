@@ -1,0 +1,29 @@
+.kurs-sayfasi {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .kurs-resmi {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+  
+  a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+  }
+  
+  a:hover {
+    background-color: #0056b3;
+  }
+  

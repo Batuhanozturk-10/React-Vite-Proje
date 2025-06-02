@@ -1,0 +1,158 @@
+.course-advice {
+    margin-top: 100px;
+    padding: 2rem;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.course-advice>ul {
+    display: flex;
+    gap: 20px;
+
+    justify-content: center;
+    padding-left: 0;
+    list-style: none;
+    flex-wrap: wrap;
+
+}
+.course-advice ul li {
+    margin-bottom: 1rem;
+  }
+  
+/* Her bir maddeyi kart gibi yapalım */
+.course-advice>ul>li {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    /* Genişlik sabit, yüksekliği içeriğe göre */
+    box-sizing: border-box;
+    text-align: left;
+
+    /* İçerik dikey olsun */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 2px solid #4caf50;
+}
+
+/* Başlıklar ve metin stilleri */
+.course-advice h3 {
+    color: #ff7f00;
+    margin-bottom: 0.5rem;
+}
+
+.course-advice p {
+    margin: 0.3rem 0;
+    font-size: 1rem;
+    line-height: 1.4;
+}
+
+/* İç içe listeler için stiller */
+.course-advice ul ul {
+    list-style: none;
+    padding-left: 1rem;
+    margin-top: 0.3rem;
+}
+
+.course-advice ul ul li {
+    position: relative;
+    margin-bottom: 0.4rem;
+    padding-left: 1rem;
+    font-size: 1rem;
+}
+
+.course-advice ul ul li::before {
+    content: "•";
+    color: #4caf50;
+    position: absolute;
+    left: 0;
+    font-weight: bold;
+}
+.spor-neden-container {
+    max-width: 800px;
+    margin: 3rem auto;
+    padding: 2.5rem 2rem;
+    background-color: transparent;
+    border-radius: 15px;
+    border: 2px solid #000000;
+    box-shadow: 0 0 15px #000000;
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+  }
+  
+  .spor-neden-container h1 {
+    font-size: 2.8rem;
+    font-weight: 900;
+    margin-bottom: 1rem;
+    letter-spacing: 1.5px;
+    text-shadow: none;
+  }
+  
+  .spor-neden-container p {
+    font-size: 2rem;
+    line-height: 1.6;
+    max-width: 700px;
+    margin: 0 auto;
+    color: #000000;
+  }
+  
+  @media (max-width: 600px) {
+    .spor-neden-container {
+      padding: 1.8rem 1rem;
+    }
+    
+    .spor-neden-container h1 {
+      font-size: 2rem;
+    }
+    
+    .spor-neden-container p {
+      font-size: 2rem;
+    }
+  }
+  .importance-box {
+    max-width: 800px;
+    margin: 3rem auto;
+    padding: 2.5rem 2rem;
+    background-color: transparent;
+    border-radius: 15px;
+    border: 2px solid #00bcd4;
+    box-shadow: 0 0 15px #00bcd4;
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+  }
+  
+  .importance-box h1 {
+    font-size: 2.8rem;
+    font-weight: 900;
+    margin-bottom: 1rem;
+    letter-spacing: 1.5px;
+    text-shadow: none ;
+  }
+  
+  .importance-box p {
+    font-size: 1.15rem;
+    line-height: 1.6;
+    max-width: 700px;
+    margin: 0 auto 1rem auto;
+    color: #000000;
+  }
+  
+  @media (max-width: 600px) {
+    .importance-box {
+      padding: 1.8rem 1rem;
+    }
+  
+    .importance-box h1 {
+      font-size: 2rem;
+    }
+  
+    .importance-box p {
+      font-size: 2rem;
+    }
+  }
+  

@@ -1,0 +1,11 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(-45deg, #ff6b6b, #f8e71c, #7ed6df, #1e90ff);
+  background-size: 400% 400%;
+  animation: gradientBG 15s ease infinite;
+  z-index: 999;
+  
+
+}
+

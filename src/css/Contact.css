@@ -1,0 +1,55 @@
+.iletisim-sayfasi {
+    padding: 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  .iletisim-icerik {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+  }
+  
+  .iletisim-kutu {
+    flex: 1 1 45%;
+    background-color: transparent;
+    border: 1px solid #ccc;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  }
+  
+  .iletisim-formu {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .iletisim-formu label {
+    margin-top: 1rem;
+    font-weight: bold;
+  }
+  
+  .iletisim-formu input,
+  .iletisim-formu textarea {
+    margin-top: 0.5rem;
+    padding: 0.6rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .iletisim-formu button {
+    margin-top: 1.5rem;
+    padding: 0.8rem;
+    background-color: #2b7cff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .iletisim-formu button:hover {
+    background-color: #1a5fd1;
+  }

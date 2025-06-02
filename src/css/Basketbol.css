@@ -1,0 +1,7 @@
+.kurs-resmi {
+    width: 300px; /* veya % ile de verebilirsin */
+    height: auto; /* oranı korur */
+    object-fit: cover; /* taşıp taşmaması için */
+    border-radius: 8px; /* istersen köşeleri yumuşatır */
+  }
+  

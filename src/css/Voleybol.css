@@ -1,0 +1,54 @@
+.kurs-sayfasi {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.kart-container {
+  display: flex;           /* Yatayda dizmek için flex */
+  flex-wrap: wrap;         /* Taşarsa alt satıra geç */
+  gap: 20px;               /* Kartlar arası boşluk */
+  justify-content: center; /* Ortala */
+}
+
+.kart {
+  border: 2px solid #007bff; /* Mavi çerçeve */
+  border-radius: 10px;
+  padding: 16px;
+  width: 280px;            /* Kart genişliği */
+  background-color: transparent;
+  box-sizing: border-box;  /* Padding ve border genişliğe dahil */
+  transition: box-shadow 0.3s;
+  text-align: left;
+}
+
+.kart:hover {
+  box-shadow: 0 4px 8px rgba(0, 123, 255, 0.3);
+}
+
+.kart h2 {
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+.kart p {
+  margin-bottom: 12px;
+  color: #4a5568;
+}
+
+.kart a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: transparent;
+  color: #007bff;
+  text-decoration: none;
+  border: 2px solid #007bff;
+  border-radius: 6px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.kart a:hover {
+  background-color: #007bff;
+  color: white;
+}
